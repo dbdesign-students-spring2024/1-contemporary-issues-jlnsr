@@ -1,3 +1,14 @@
-# Contemporary Issues In Data
+# The Advantages and Disadvantages of SQL Databases
+In this document, I will be responding to two different articles reflecting on one, the advantages of SQL databases over spreadsheets, and two, the overall advantages and disadvantages of SQL. However, for the purpose of contrast, I will be discussing strictly the benefits of SQL explained in the first article, and the disadvantages of such discussed in the second article.  
 
-Welcome! Your writing assignment will be in this file.  See [the instructions](./instructions.md) for more details.
+## Article 1
+[Advantages of Relational Databses (RDBS) over spreadsheets](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7718502/)  
+Spreadsheets are not in fact databases, which are superior to the former in terms of their ability to present associative multidimensional data structures cleanly. Furthermore, databases effectively prevent spurious data from entering a data set. The fundamental disadvantage of spreadsheets is that they are only able to represent one to one relations, or two dimensional data. In order to accommodate multidimensional data–that is, one to many relations–a cumbersome, time consuming duplication of data must be undertaken. On the other hand, relational databases effectively manage one to many relations because they consist of tables whose relation is defined when the fields are created. Each table is of a two dimensional structure, being able to contain multiple rows of data associated with that one field. The fact that a key, or unique identifier, defines the data it contains, prevents erroneous data–or data that does not correspond with its definition–from being imported. This makes it easier to identify and correct errors efficiently.          
+
+SQL offers immense utility for performing analysis and operations on vast amounts of data in a more than timely manner. Any amount of variables within any amount of tables can be simultaneously searched, allowing for operations to be done at a fraction of the time and memory it would take to perform said operations with a spreadsheet. The concept of relational data structures, or data represented in terms of its relation to other data, was the foundation of the SQL language, which has become the standard language for relational database systems (RDBS). SQL is a complex language that is used to manipulate data in an RDBMS.   
+
+## Article 2
+[Pros and Cons of SQL Databses](https://www.datastax.com/blog/sql-vs-nosql-pros-cons)  
+Although efficient at retrieving massive amounts of data, SQL databases can be difficult to design and rather costly. Good practice for managing SQL databases involves the continual leveling up of hardware as data volume increases. Expanding capacity, which becomes absolutely necessary, is time consuming and expensive, therefore, operating and maintenance costs may outweigh the benefits depending on the user’s budget.  
+
+Furthermore, SQL databases follow a standardized schema that must be carefully defined before put into production. Due to its rigidity, any changes or revisions made thereafter are very difficult to implement and therefore not feasible. SQL databases require intensive planning before implementation to avoid the need of making any later modifications.   
